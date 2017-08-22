@@ -9,7 +9,7 @@
 	<name>myweb Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-   <maven.tomcat.url>http://localhost:9080/manager/html</maven.tomcat.url>
+   <maven.tomcat.url>http://localhost:9080/manager/text</maven.tomcat.url>
 </properties>
 	<dependencies>
 		<dependency>
@@ -71,7 +71,7 @@
               
                 <configuration>
                     <server>apache-tomcat-7</server>
-                    <url>http://localhost:9080/manager/html</url>
+                    <url>http://localhost:9080/manager/text</url>
                     <path>/${project.artifactId}</path>
 			<username>jenkins</username>
 			<password>jenkins</password>
